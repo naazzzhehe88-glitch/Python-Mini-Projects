@@ -1,36 +1,20 @@
-# Python Mini Projects
-
-## Overview
-
-This repository contains the Python projects I build while learning programming and improving my problem-solving skills. It serves as a collection of my work and will continue to grow as I learn new concepts and develop more advanced applications.
-
----
-
 ## Projects
 
 | Project | Description |
 |---------|-------------|
+| Alarm Clock | Console-based alarm application with countdown functionality. |
 | Banking System | Console-based banking application with account creation, deposits, withdrawals, transfers, account management, and balance tracking. |
-| Library Management System | Console-based library management application with book addition, borrowing, returning, searching, deleting, inventory management, and total book tracking. |
-| Student Management System | Manage student records with age, subjects, marks, updates, topper calculation, average marks, searching, and deletion using nested dictionaries. |
+| Calculator | Basic calculator supporting arithmetic operations with user input. |
 | Contact List System | Manage contacts by adding, searching, updating, and deleting records. |
-| Guess the Number | Interactive number guessing game. |
-| Rock Paper Scissors | Classic game against the computer with score tracking. |
-| Password Generator | Generate secure random passwords. |
 | Currency Converter | Convert currencies using predefined exchange rates. |
-| Alarm Clock | Console-based alarm with countdown functionality. |
-| Hangman | Word guessing game using Python. |
-
----
-
-## Technologies Used
-
-- Python 3
-- Visual Studio Code
-- Git
-- GitHub
-
----
+| Dice Rolling Simulator | Simulate rolling one or more dice using Python's random module. |
+| Hangman | Classic word guessing game with limited attempts. |
+| Library Management System | Manage books by adding, borrowing, returning, searching, deleting, and tracking available copies. |
+| Number Guessing Game | Interactive number guessing game with hints and multiple attempts. |
+| Random Password Generator | Generate strong and secure random passwords with customizable length. |
+| Rock Paper Scissors Game | Play Rock, Paper, Scissors against the computer with score tracking. |
+| Student Management System | Manage student records, subjects, marks, topper calculation, average marks, searching, updating, and deletion using nested dictionaries. |
+| To Do App | Console-based task manager to add, view, complete, and delete tasks. |
 
 ## Concepts Practiced
 
@@ -42,11 +26,12 @@ This repository contains the Python projects I build while learning programming 
 - Dictionaries
 - Nested Dictionaries
 - String Manipulation
-- Python Modules
+- Random Module
 - Input Validation
 - CRUD Operations
 - Data Formatting
 - Problem Solving
+- Modular Programming
 - Git & GitHub
 
 ---
@@ -70,3 +55,15 @@ This repository will continue to expand with projects involving:
 ## Author
 
 **Naaz Shaikh**
+
+
+
+
+
+
+
+
+
+
+
+
