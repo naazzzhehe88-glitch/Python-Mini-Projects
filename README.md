@@ -15,6 +15,7 @@
 | Rock Paper Scissors Game | Play Rock, Paper, Scissors against the computer with score tracking. |
 | Student Management System | Manage student records, subjects, marks, topper calculation, average marks, searching, updating, and deletion using nested dictionaries. |
 | To Do App | Console-based task manager to add, view, complete, and delete tasks. |
+| Expense Tracker | Console-based expense management system to add, view, search, delete, and analyze daily expenses. |
 
 ## Concepts Practiced
 
