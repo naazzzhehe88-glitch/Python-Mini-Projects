@@ -33,13 +33,17 @@ while True:
         if number<=0:
             print("Number of subjects must be greater than 0.")
             continue
-
         for i in range(number):
             subject = input("Enter subject name: ").title()
-            marks = int(input("Enter marks: "))
-            if marks < 0 or marks > 100:
+
+            while True:
+                marks = int(input("Enter marks: "))
+
+                if 0 <= marks <= 100:
+                    break
+
                 print("Marks must be between 0 and 100.")
-                continue
+
             subjects[subject] = marks
 
         students[name] = {"Age": age, "Subjects": subjects}
@@ -70,11 +74,15 @@ while True:
                 if update_subject not in students[name]["Subjects"]:
                     print("Subject not found.")
                     continue
-                new_marks = int(input("Enter new marks: "))
-                if new_marks < 0 or new_marks > 100:
+                while True:
+                    new_marks = int(input("Enter new marks: "))
+
+                    if 0 <= new_marks <= 100:
+                        break
+
                     print("Marks must be between 0 and 100.")
-                    continue
-                students[name]["Subjects"][update_subject]= new_marks
+
+                students[name]["Subjects"][update_subject] = new_marks
                 print(f"{name}'s marks for {update_subject} have been updated to {new_marks}. ")
     elif choice == "3":
         name = input("Enter student name to search: ").title()
@@ -136,6 +144,7 @@ while True:
             for name,details in students.items():
                 total_marks = sum(details["Subjects"].values())
                 average_marks = total_marks / len(details["Subjects"])
+              
                 if average_marks> highest_average:
                     highest_average = average_marks
                     topper = name
@@ -158,7 +167,7 @@ while True:
                 total_marks += sum(details["Subjects"].values())
                 total_subjects += len(details["Subjects"])
             average_marks = total_marks / total_subjects
-            print(f"The average marks of all students is {average_marks: .2f}.")
+            print(f"The average marks of all students is {average_marks:.2f}.")
     
            
 
